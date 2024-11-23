@@ -14,10 +14,6 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
 
-app.get('/', (req, res) => {
-    res.send('Welcome to GeeksforGeeks');
-    });
-
 app.listen(PORT,() => {
     console.log(`Server is running on PORT: ${PORT}`)
 });
