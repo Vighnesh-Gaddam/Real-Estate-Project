@@ -10,8 +10,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
 import Property from "./pages/Property/Property";
 import UserDetailContext from "./context/UserDetailContext";
-import Bookings from "./pages/bookings/Bookings";
 import Favourites from "./pages/Favourites/Favourites";
+import Bookings from "./pages/Bookings/Bookings"
 
 
 function App() {
