@@ -1,0 +1,44 @@
+# Ignore environment files
+*.env
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore build output
+dist/
+build/
+out/
+
+# Ignore Vercel configuration (if not needed)
+vercel.json
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Prisma-specific files (e.g., generated client)
+prisma/node_modules/
+prisma/generated/
+
+# Ignore public files if unnecessary
+public/
+!public/*.png
+!public/*.jpg
+!public/*.svg
+
+# Ignore miscellaneous
+output.txt
