@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain="dev-j7vzkswmn4dv0mds.us.auth0.com"
       clientId="oJC1ifn2FDLkx4M3XCUOfZ22s669vc6F"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173/"
+        redirect_uri: "https://homyz-real-estate-project.vercel.app/"
       }}
       audience="http://localhost:8000"
       // audience="https://dev-j7vzkswmn4dv0mds.us.auth0.com/api/v2/"
